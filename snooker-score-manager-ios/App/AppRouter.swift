@@ -10,8 +10,15 @@ import SwiftUI
 
 class AppRouter: Router, ObservableObject {
     
-    @Published var navPath = NavigationPath()
-
+    var navPath: NavigationPath
+    private var initialDestination: Destination
+    
+    init(navPath: NavigationPath, initialDestination: Destination) {
+        self.navPath = navPath
+        self.initialDestination = initialDestination
+        self.navPath.append(initialDestination)
+    }
+    
     func navigate(to destination: Destination) {
         navPath.append(destination)
     }

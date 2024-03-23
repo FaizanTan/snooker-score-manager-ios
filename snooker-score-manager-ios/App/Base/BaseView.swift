@@ -12,8 +12,6 @@ struct BaseView<T: BaseViewModel>: View, Identifiable, Hashable {
     internal var id: UUID = UUID()
     var viewModel: T
     
-    @EnvironmentObject var router: AppRouter
-    
     static func == (lhs: BaseView<T>, rhs: BaseView<T>) -> Bool {
         lhs.id == rhs.id
     }
@@ -23,14 +21,10 @@ struct BaseView<T: BaseViewModel>: View, Identifiable, Hashable {
     }
 
     var body: some View {
-        Text(verbatim: .root)
+        Text("Base View")
     }
 }
 
-#Preview {
-    BaseView(viewModel: BaseViewModel())
-        .environmentObject(AppRouter())
-}
 
 
 

@@ -10,21 +10,11 @@ import SwiftUI
 @main
 struct snooker_score_manager_iosApp: App {
     
-    @ObservedObject var appRouter = AppRouter()
-    
     var body: some Scene {
         WindowGroup {
-            NavigationStack(path: $appRouter.navPath) {
-                let baseViewModel = BaseViewModel()
-                BaseView(viewModel: baseViewModel)
-                    .navigationDestination(for: Destination.self) { destination in
-                        switch destination {
-                            case .root:
-                                Text(verbatim: .root)
-                        }
-                    }
-            }
+            let baseViewModel = BaseViewModel()
+            BaseView(viewModel: baseViewModel, text: "base")
         }
-        .environmentObject(appRouter)
     }
+    
 }
