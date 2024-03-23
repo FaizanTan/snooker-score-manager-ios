@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		26F4912E2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4912D2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift */; };
-		26F491302BAE6DFC003E07E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4912F2BAE6DFC003E07E0 /* ContentView.swift */; };
-		26F491322BAE6DFC003E07E0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491312BAE6DFC003E07E0 /* Item.swift */; };
 		26F491342BAE6DFD003E07E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F491332BAE6DFD003E07E0 /* Assets.xcassets */; };
 		26F491372BAE6DFD003E07E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F491362BAE6DFD003E07E0 /* Preview Assets.xcassets */; };
 		26F491412BAE6DFD003E07E0 /* snooker_score_manager_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491402BAE6DFD003E07E0 /* snooker_score_manager_iosTests.swift */; };
 		26F4914B2BAE6DFD003E07E0 /* snooker_score_manager_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4914A2BAE6DFD003E07E0 /* snooker_score_manager_iosUITests.swift */; };
 		26F4914D2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4914C2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift */; };
+		26F491632BAE725A003E07E0 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491622BAE7259003E07E0 /* Destination.swift */; };
+		26F491652BAE7277003E07E0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491642BAE7277003E07E0 /* Router.swift */; };
+		26F491682BAE72C9003E07E0 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491672BAE72C9003E07E0 /* BaseViewModel.swift */; };
+		26F4916E2BAE744E003E07E0 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4916D2BAE744E003E07E0 /* AppRouter.swift */; };
+		26F491722BAE7BB4003E07E0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491712BAE7BB4003E07E0 /* BaseView.swift */; };
+		26F491742BAE820B003E07E0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491732BAE820B003E07E0 /* String.swift */; };
+		26F491762BAE83B4003E07E0 /* BackNavigationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491752BAE83B4003E07E0 /* BackNavigationOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,6 @@
 /* Begin PBXFileReference section */
 		26F4912A2BAE6DFC003E07E0 /* snooker-score-manager-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snooker-score-manager-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F4912D2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_score_manager_iosApp.swift; sourceTree = "<group>"; };
-		26F4912F2BAE6DFC003E07E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		26F491312BAE6DFC003E07E0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		26F491332BAE6DFD003E07E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26F491362BAE6DFD003E07E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26F4913C2BAE6DFD003E07E0 /* snooker-score-manager-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snooker-score-manager-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +49,13 @@
 		26F491462BAE6DFD003E07E0 /* snooker-score-manager-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snooker-score-manager-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F4914A2BAE6DFD003E07E0 /* snooker_score_manager_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_score_manager_iosUITests.swift; sourceTree = "<group>"; };
 		26F4914C2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_score_manager_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26F491622BAE7259003E07E0 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		26F491642BAE7277003E07E0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		26F491672BAE72C9003E07E0 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		26F4916D2BAE744E003E07E0 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		26F491712BAE7BB4003E07E0 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		26F491732BAE820B003E07E0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		26F491752BAE83B4003E07E0 /* BackNavigationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackNavigationOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +106,13 @@
 		26F4912C2BAE6DFC003E07E0 /* snooker-score-manager-ios */ = {
 			isa = PBXGroup;
 			children = (
-				26F4912D2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift */,
-				26F4912F2BAE6DFC003E07E0 /* ContentView.swift */,
-				26F491312BAE6DFC003E07E0 /* Item.swift */,
+				26F491602BAE7081003E07E0 /* Utilities */,
+				26F4915E2BAE702E003E07E0 /* Managers */,
+				26F4915D2BAE6FB1003E07E0 /* Resources */,
+				26F4915C2BAE6FAA003E07E0 /* Globals */,
+				26F4915B2BAE6FA3003E07E0 /* Extensions */,
+				26F4915A2BAE6F8A003E07E0 /* UI */,
+				26F491592BAE6F5F003E07E0 /* App */,
 				26F491332BAE6DFD003E07E0 /* Assets.xcassets */,
 				26F491352BAE6DFD003E07E0 /* Preview Content */,
 			);
@@ -128,6 +142,79 @@
 				26F4914C2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift */,
 			);
 			path = "snooker-score-manager-iosUITests";
+			sourceTree = "<group>";
+		};
+		26F491592BAE6F5F003E07E0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				26F491662BAE72BA003E07E0 /* Base */,
+				26F4916D2BAE744E003E07E0 /* AppRouter.swift */,
+				26F4912D2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		26F4915A2BAE6F8A003E07E0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		26F4915B2BAE6FA3003E07E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26F491732BAE820B003E07E0 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		26F4915C2BAE6FAA003E07E0 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		26F4915D2BAE6FB1003E07E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		26F4915E2BAE702E003E07E0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		26F491602BAE7081003E07E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				26F491612BAE7246003E07E0 /* Routing */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		26F491612BAE7246003E07E0 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				26F491752BAE83B4003E07E0 /* BackNavigationOption.swift */,
+				26F491622BAE7259003E07E0 /* Destination.swift */,
+				26F491642BAE7277003E07E0 /* Router.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		26F491662BAE72BA003E07E0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				26F491672BAE72C9003E07E0 /* BaseViewModel.swift */,
+				26F491712BAE7BB4003E07E0 /* BaseView.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F491302BAE6DFC003E07E0 /* ContentView.swift in Sources */,
-				26F491322BAE6DFC003E07E0 /* Item.swift in Sources */,
 				26F4912E2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift in Sources */,
+				26F491682BAE72C9003E07E0 /* BaseViewModel.swift in Sources */,
+				26F4916E2BAE744E003E07E0 /* AppRouter.swift in Sources */,
+				26F491722BAE7BB4003E07E0 /* BaseView.swift in Sources */,
+				26F491742BAE820B003E07E0 /* String.swift in Sources */,
+				26F491652BAE7277003E07E0 /* Router.swift in Sources */,
+				26F491632BAE725A003E07E0 /* Destination.swift in Sources */,
+				26F491762BAE83B4003E07E0 /* BackNavigationOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
