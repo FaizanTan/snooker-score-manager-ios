@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F4912E2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4912D2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift */; };
+		26F491302BAE6DFC003E07E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4912F2BAE6DFC003E07E0 /* ContentView.swift */; };
+		26F491322BAE6DFC003E07E0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491312BAE6DFC003E07E0 /* Item.swift */; };
+		26F491342BAE6DFD003E07E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F491332BAE6DFD003E07E0 /* Assets.xcassets */; };
+		26F491372BAE6DFD003E07E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F491362BAE6DFD003E07E0 /* Preview Assets.xcassets */; };
+		26F491412BAE6DFD003E07E0 /* snooker_score_manager_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F491402BAE6DFD003E07E0 /* snooker_score_manager_iosTests.swift */; };
+		26F4914B2BAE6DFD003E07E0 /* snooker_score_manager_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4914A2BAE6DFD003E07E0 /* snooker_score_manager_iosUITests.swift */; };
+		26F4914D2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4914C2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26F4913D2BAE6DFD003E07E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F491222BAE6DFC003E07E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F491292BAE6DFC003E07E0;
+			remoteInfo = "snooker-score-manager-ios";
+		};
+		26F491472BAE6DFD003E07E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F491222BAE6DFC003E07E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F491292BAE6DFC003E07E0;
+			remoteInfo = "snooker-score-manager-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26F4912A2BAE6DFC003E07E0 /* snooker-score-manager-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snooker-score-manager-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F4912D2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_score_manager_iosApp.swift; sourceTree = "<group>"; };
+		26F4912F2BAE6DFC003E07E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26F491312BAE6DFC003E07E0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		26F491332BAE6DFD003E07E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F491362BAE6DFD003E07E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26F4913C2BAE6DFD003E07E0 /* snooker-score-manager-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snooker-score-manager-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F491402BAE6DFD003E07E0 /* snooker_score_manager_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_score_manager_iosTests.swift; sourceTree = "<group>"; };
+		26F491462BAE6DFD003E07E0 /* snooker-score-manager-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snooker-score-manager-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F4914A2BAE6DFD003E07E0 /* snooker_score_manager_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_score_manager_iosUITests.swift; sourceTree = "<group>"; };
+		26F4914C2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_score_manager_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F491272BAE6DFC003E07E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F491392BAE6DFD003E07E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F491432BAE6DFD003E07E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F491212BAE6DFC003E07E0 = {
+			isa = PBXGroup;
+			children = (
+				26F4912C2BAE6DFC003E07E0 /* snooker-score-manager-ios */,
+				26F4913F2BAE6DFD003E07E0 /* snooker-score-manager-iosTests */,
+				26F491492BAE6DFD003E07E0 /* snooker-score-manager-iosUITests */,
+				26F4912B2BAE6DFC003E07E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26F4912B2BAE6DFC003E07E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F4912A2BAE6DFC003E07E0 /* snooker-score-manager-ios.app */,
+				26F4913C2BAE6DFD003E07E0 /* snooker-score-manager-iosTests.xctest */,
+				26F491462BAE6DFD003E07E0 /* snooker-score-manager-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F4912C2BAE6DFC003E07E0 /* snooker-score-manager-ios */ = {
+			isa = PBXGroup;
+			children = (
+				26F4912D2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift */,
+				26F4912F2BAE6DFC003E07E0 /* ContentView.swift */,
+				26F491312BAE6DFC003E07E0 /* Item.swift */,
+				26F491332BAE6DFD003E07E0 /* Assets.xcassets */,
+				26F491352BAE6DFD003E07E0 /* Preview Content */,
+			);
+			path = "snooker-score-manager-ios";
+			sourceTree = "<group>";
+		};
+		26F491352BAE6DFD003E07E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26F491362BAE6DFD003E07E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26F4913F2BAE6DFD003E07E0 /* snooker-score-manager-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				26F491402BAE6DFD003E07E0 /* snooker_score_manager_iosTests.swift */,
+			);
+			path = "snooker-score-manager-iosTests";
+			sourceTree = "<group>";
+		};
+		26F491492BAE6DFD003E07E0 /* snooker-score-manager-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26F4914A2BAE6DFD003E07E0 /* snooker_score_manager_iosUITests.swift */,
+				26F4914C2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift */,
+			);
+			path = "snooker-score-manager-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F491292BAE6DFC003E07E0 /* snooker-score-manager-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F491502BAE6DFD003E07E0 /* Build configuration list for PBXNativeTarget "snooker-score-manager-ios" */;
+			buildPhases = (
+				26F491262BAE6DFC003E07E0 /* Sources */,
+				26F491272BAE6DFC003E07E0 /* Frameworks */,
+				26F491282BAE6DFC003E07E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "snooker-score-manager-ios";
+			productName = "snooker-score-manager-ios";
+			productReference = 26F4912A2BAE6DFC003E07E0 /* snooker-score-manager-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26F4913B2BAE6DFD003E07E0 /* snooker-score-manager-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F491532BAE6DFD003E07E0 /* Build configuration list for PBXNativeTarget "snooker-score-manager-iosTests" */;
+			buildPhases = (
+				26F491382BAE6DFD003E07E0 /* Sources */,
+				26F491392BAE6DFD003E07E0 /* Frameworks */,
+				26F4913A2BAE6DFD003E07E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F4913E2BAE6DFD003E07E0 /* PBXTargetDependency */,
+			);
+			name = "snooker-score-manager-iosTests";
+			productName = "snooker-score-manager-iosTests";
+			productReference = 26F4913C2BAE6DFD003E07E0 /* snooker-score-manager-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26F491452BAE6DFD003E07E0 /* snooker-score-manager-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F491562BAE6DFD003E07E0 /* Build configuration list for PBXNativeTarget "snooker-score-manager-iosUITests" */;
+			buildPhases = (
+				26F491422BAE6DFD003E07E0 /* Sources */,
+				26F491432BAE6DFD003E07E0 /* Frameworks */,
+				26F491442BAE6DFD003E07E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F491482BAE6DFD003E07E0 /* PBXTargetDependency */,
+			);
+			name = "snooker-score-manager-iosUITests";
+			productName = "snooker-score-manager-iosUITests";
+			productReference = 26F491462BAE6DFD003E07E0 /* snooker-score-manager-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F491222BAE6DFC003E07E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					26F491292BAE6DFC003E07E0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					26F4913B2BAE6DFD003E07E0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 26F491292BAE6DFC003E07E0;
+					};
+					26F491452BAE6DFD003E07E0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 26F491292BAE6DFC003E07E0;
+					};
+				};
+			};
+			buildConfigurationList = 26F491252BAE6DFC003E07E0 /* Build configuration list for PBXProject "snooker-score-manager-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F491212BAE6DFC003E07E0;
+			productRefGroup = 26F4912B2BAE6DFC003E07E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F491292BAE6DFC003E07E0 /* snooker-score-manager-ios */,
+				26F4913B2BAE6DFD003E07E0 /* snooker-score-manager-iosTests */,
+				26F491452BAE6DFD003E07E0 /* snooker-score-manager-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F491282BAE6DFC003E07E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F491372BAE6DFD003E07E0 /* Preview Assets.xcassets in Resources */,
+				26F491342BAE6DFD003E07E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F4913A2BAE6DFD003E07E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F491442BAE6DFD003E07E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F491262BAE6DFC003E07E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F491302BAE6DFC003E07E0 /* ContentView.swift in Sources */,
+				26F491322BAE6DFC003E07E0 /* Item.swift in Sources */,
+				26F4912E2BAE6DFC003E07E0 /* snooker_score_manager_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F491382BAE6DFD003E07E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F491412BAE6DFD003E07E0 /* snooker_score_manager_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F491422BAE6DFD003E07E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F4914B2BAE6DFD003E07E0 /* snooker_score_manager_iosUITests.swift in Sources */,
+				26F4914D2BAE6DFD003E07E0 /* snooker_score_manager_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F4913E2BAE6DFD003E07E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F491292BAE6DFC003E07E0 /* snooker-score-manager-ios */;
+			targetProxy = 26F4913D2BAE6DFD003E07E0 /* PBXContainerItemProxy */;
+		};
+		26F491482BAE6DFD003E07E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F491292BAE6DFC003E07E0 /* snooker-score-manager-ios */;
+			targetProxy = 26F491472BAE6DFD003E07E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26F4914E2BAE6DFD003E07E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26F4914F2BAE6DFD003E07E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F491512BAE6DFD003E07E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"snooker-score-manager-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = C2V5J4RN72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizantanveer.snooker-score-manager-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26F491522BAE6DFD003E07E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"snooker-score-manager-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = C2V5J4RN72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizantanveer.snooker-score-manager-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26F491542BAE6DFD003E07E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2V5J4RN72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizantanveer.snooker-score-manager-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snooker-score-manager-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snooker-score-manager-ios";
+			};
+			name = Debug;
+		};
+		26F491552BAE6DFD003E07E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2V5J4RN72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizantanveer.snooker-score-manager-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snooker-score-manager-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snooker-score-manager-ios";
+			};
+			name = Release;
+		};
+		26F491572BAE6DFD003E07E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2V5J4RN72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizantanveer.snooker-score-manager-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "snooker-score-manager-ios";
+			};
+			name = Debug;
+		};
+		26F491582BAE6DFD003E07E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2V5J4RN72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizantanveer.snooker-score-manager-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "snooker-score-manager-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F491252BAE6DFC003E07E0 /* Build configuration list for PBXProject "snooker-score-manager-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F4914E2BAE6DFD003E07E0 /* Debug */,
+				26F4914F2BAE6DFD003E07E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F491502BAE6DFD003E07E0 /* Build configuration list for PBXNativeTarget "snooker-score-manager-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F491512BAE6DFD003E07E0 /* Debug */,
+				26F491522BAE6DFD003E07E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F491532BAE6DFD003E07E0 /* Build configuration list for PBXNativeTarget "snooker-score-manager-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F491542BAE6DFD003E07E0 /* Debug */,
+				26F491552BAE6DFD003E07E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F491562BAE6DFD003E07E0 /* Build configuration list for PBXNativeTarget "snooker-score-manager-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F491572BAE6DFD003E07E0 /* Debug */,
+				26F491582BAE6DFD003E07E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F491222BAE6DFC003E07E0 /* Project object */;
+}
