@@ -13,6 +13,6 @@ protocol Router {
     var navPath: NavigationPath { get }
     
     func navigate(to destination: Destination)
-    func navigateBack(_ option: BackNavigationOption)
+    func navigateBack(_ steps: Int)
     func setRoot(_ root: Destination)
 }
